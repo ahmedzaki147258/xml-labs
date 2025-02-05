@@ -1,0 +1,28 @@
+{
+  "name": "TechCorp",
+  "location": "New York",
+  "employees": [
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "age": 45,
+      "position": "Project Manager",
+      "salary": 120000,
+      "contact": {
+        "email": "bob.smith@techcorp.com",
+        "phone": "555-5678"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Charlie Brown",
+      "age": 28,
+      "position": "UI/UX Designer",
+      "salary": 85000,
+      "contact": {
+        "email": "charlie.brown@techcorp.com",
+        "phone": "555-8765"
+      }
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+    <location>Alax</location>
+    <description>there are many different types of books</description>
+    <librarian>A7med zaki</librarian>
+
+    <books>
+        <book>
+            <title>Python Programming</title>
+            <ISBN>123-456-789</ISBN>
+            <author>john</author>
+            <preface>the most programming language used in AI</preface>
+            
+            <parts>
+                <part>
+                    <title>intro to programming</title>
+                    
+                    <chapters>
+                        <chapter>
+                            <title>Ch1: basics</title>
+                            <summary>An overview of fundamental programming concepts, including variables, data types, and control structures.</summary>
+                            
+                            <sections>
+                                <section>
+                                    <title>Sec 1.1: variables and datatypes<title>
+                                    <contents>
+                                        <content>Variables are used to store data in programming.</content>
+                                        <content>Different data types include integers, strings, and booleans.</content>
+                                    </contents>
+                                </section>
+
+                                <section>
+                                    <title>Sec 1.2: control statements<title>
+                                    <contents>
+                                        <content>Control structures include loops and conditional statements.</content>
+                                        <content>They help in decision-making and repeating tasks efficiently.</content>
+                                    <contents>
+                                </section>
+                            </sections>
+                        </chapter>
+
+                        <chapter>
+                            <title>Ch2: OOP</title>
+                            <summary>A detailed explanation of OOP principles such as encapsulation, inheritance, and polymorphism.</summary>
+                            
+                            <sections>
+                                <section>
+                                    <title>Sec 2.1: Encapsulation</title>
+                                    <contents>
+                                        <content>Encapsulation is the bundling of data and methods that operate on that data.</content>
+                                        <content>It helps in protecting the internal state of an object.</content>
+                                    </contents>
+                                </section>
+
+                                <section>
+                                    <title>Sec 2.2: Inheritance</title>
+                                    <contents>
+                                        <content>Inheritance is a relation ship.</content>
+                                        <content>Help us not repeat the data and take the attributes form parent.</content>
+                                    </contents>
+                                </section>
+                            </sections>
+                        </chapter>
+                    </chapters>
+                </part>
+
+                <part>
+                    <title>advanced topics</title>
+                    <chapters>
+                        <chapter>
+                            <title>Ch3: Design Patterns</title>
+                            <summary>Explores common design patterns used in software development.</summary>
+                            
+                            <sections>
+                                <section>
+                                    <title>Sec 3.1: Singleton</title>
+                                    <contents>
+                                        <content>The Singleton pattern ensures that a class has only one instance.</content>
+                                        <content>It is useful for managing shared resources like database connections.</content>
+                                    </contents>
+                                </section>
+                            </sections>
+                        </chapter>
+                    </chapters>
+                </part>
+
+            </parts>
+        </book>
+    </books>
+</library>

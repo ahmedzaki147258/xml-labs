@@ -1,0 +1,80 @@
+{
+  "library": {
+    "location": "Alax",
+    "description": "there are many different types of books",
+    "librarian": "A7med zaki",
+    "books": [
+      {
+        "title": "Python Programming",
+        "ISBN": "123-456-789",
+        "author": "john",
+        "preface": "the most programming language used in AI",
+        "parts": [
+          {
+            "title": "intro to programming",
+            "chapters": [
+              {
+                "title": "Ch1: basics",
+                "summary": "An overview of fundamental programming concepts, including variables, data types, and control structures.",
+                "sections": [
+                  {
+                    "title": "Sec 1.1: variables and datatypes",
+                    "content": [
+                      "Variables are used to store data in programming.",
+                      "Different data types include integers, strings, and booleans."
+                    ]
+                  },
+                  {
+                    "title": "Sec 1.2: control statements",
+                    "content": [
+                      "Control structures include loops and conditional statements.",
+                      "They help in decision-making and repeating tasks efficiently."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Ch2: OOP",
+                "summary": "A detailed explanation of OOP principles such as encapsulation, inheritance, and polymorphism.",
+                "sections": [
+                  {
+                    "title": "Sec 2.1: Encapsulation",
+                    "content": [
+                      "Encapsulation is the bundling of data and methods that operate on that data.",
+                      "It helps in protecting the internal state of an object."
+                    ]
+                  },
+                  {
+                    "title": "Sec 2.2: Inheritance",
+                    "content": [
+                      "Inheritance is a relation ship.",
+                      "Help us not repeat the data and take the attributes form parent."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "advanced topics",
+            "chapters": [
+              {
+                "title": "Ch3: Design Patterns",
+                "summary": "Explores common design patterns used in software development.",
+                "sections": [
+                  {
+                    "title": "Sec 3.1: Singleton",
+                    "content": [
+                      "The Singleton pattern ensures that a class has only one instance.",
+                      "It is useful for managing shared resources like database connections."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
