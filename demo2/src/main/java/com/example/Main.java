@@ -20,7 +20,6 @@ public class Main {
 
         try {
             writeJsonFile(company, filename);
-            readJsonFile(filename);
             Company readCompany = readJsonFile(filename);
 
             System.out.println("Company Name: " + readCompany.getName());
